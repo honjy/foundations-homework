@@ -1,5 +1,5 @@
 ########
-#
+#Graded = 24/25
 # Homework 3
 #
 # MAKE SURE YOU ARE RUNNING THIS WITH PYTHON 3!
@@ -196,3 +196,5 @@ for crisps in playlists:
 for x in playlists:
     if x['tracks']['total'] < 200:
         print(x)
+#TA-Stephan: Can't just print x.
+# Need to print x['tracks']['total'] and x['name']
